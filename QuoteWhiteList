@@ -1,6 +1,6 @@
+pragma solidity ^0.4.24;
 
-
-contract KTCWhiteList  {
+contract QuoteWhiteList  {
     
     address public owner;
     
@@ -14,7 +14,7 @@ contract KTCWhiteList  {
 	}
     
    
-    function KTCWhiteList(){
+    function QuoteWhiteList(){
         
         owner = msg.sender;
         
